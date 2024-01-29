@@ -1,0 +1,370 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+/* Global styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.opacity {
+    opacity: 0.8;
+}
+
+.wide {
+    letter-spacing: 4px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+a {
+    color: inherit;
+}
+
+/* Navbar styles */
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+.bar {
+    width: 100%;
+    overflow: hidden;
+}
+
+.bar-item {
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+}
+
+.bar-item:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+/* Page content styles */
+.content {
+    max-width: 2000px;
+}
+
+.mySlides {
+    display: none;
+}
+
+.container {
+    padding: 0.01em 16px;
+}
+
+.padding-64 {
+    padding: 64px;
+}
+
+.center {
+    text-align: center;
+}
+
+/* Tour section styles */
+.black {
+    background-color: #000;
+    color: #fff;
+}
+
+.ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ul li {
+    padding: 8px 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+.ul li:last-child {
+    border-bottom: none;
+}
+
+/* Updated Tour section styles */
+.row-padding {
+    margin: 0 -8px;
+}
+
+.third {
+    width: 100%;
+    margin: 0 8px 16px 8px;
+    display: inline-block;
+    /* Added display property for centering */
+    vertical-align: top;
+    /* Align to the top to prevent vertical alignment issues */
+}
+
+.container.white {
+    padding: 16px;
+    text-align: center;
+}
+
+.pass {
+    display: flex;
+}
+
+.colorr {
+    color: #000;
+    background-color: #eee;
+}
+
+/* Centering for small screens */
+@media screen and (max-width: 600px) {
+    .row-padding {
+        margin: 0 -8px;
+        text-align: center;
+    }
+
+    .third {
+        width: 100%;
+        margin: 0 0 16px 0;
+    }
+}
+
+
+/* Contact section styles */
+.row-padding {
+    margin: 0 -16px 8px -16px;
+}
+
+.half {
+    width: 50%;
+
+}
+
+.input {
+    padding: 8px;
+    display: block;
+    /* border: 2px solid #ccc; */
+    width: 100%;
+    border-radius: 5px;
+}
+
+.butSend {
+    height: 30px;
+    width: 80px;
+    margin-top: 6px;
+    margin-left: 260px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.butSend:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tic {
+    color: #fff;
+    background-color: #000;
+}
+
+.button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.button:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Footer styles */
+footer {
+    padding: 64px;
+    text-align: center;
+    opacity: 0.8;
+    background-color: #f4f4f4;
+}
+
+/* Automatic Slideshow Container */
+.display-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+}
+
+.display-bottommiddle {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.container.text-white {
+    padding: 32px;
+}
+
+.padding-32 {
+    padding: 32px;
+}
+
+.padding-32 {
+    padding: 7px;
+}
+
+.conta {
+    width: 30px;
+    margin-top: -20px;
+}
+
+/* Band section styles */
+.justify {
+    text-align: justify;
+}
+
+/* Tour date styles */
+.badge {
+    margin-right: 8px;
+}
+
+.ban {
+    color: #fff;
+    background-color: rgb(248, 15, 7);
+    margin-left: 10px;
+}
+
+/* Image styles in Tour section */
+.third {
+    width: 33.33%;
+    margin-bottom: 16px;
+}
+
+.tick {
+    height: 35px;
+    color: white;
+    background-color: #000;
+}
+
+/* Contact form styles */
+.col.m6 {
+    width: 50%;
+}
+
+/* Map image styles */
+.image {
+    width: 100%;
+    height: auto;
+}
+
+/* Footer social media icons styles */
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.content {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Additional adjustments for small screens */
+@media screen and (max-width: 600px) {
+
+    .bar {
+        text-align: center;
+    }
+
+
+    .display-bottommiddle {
+        position: static;
+        text-align: center;
+    }
+
+
+    .pass {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Tour section adjustments */
+    .third {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .third {
+
+        margin-right: -30px;
+    }
+
+    /* Contact section adjustments */
+    .half {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .padding-32 {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .butSend {
+        margin-left: -15px;
+    }
+
+    .col.m6 {
+        width: 100%;
+    }
+
+    /* Footer adjustments */
+    footer {
+        padding: 32px;
+    }
+}
